@@ -32,7 +32,8 @@ to query the database
 3. The application is now running, you can make HTTP requests to
 https://shopify-technical-challenge-submission.johnkattukudiyi.repl.co and receive responses in return. This can be done
 using cURL, Postman, etc. See [Application Endpoints](#application-endpoints) for the list of application endpoints. 
-Alternatively, the following links contain pre-made requests that can be run immediately. **Note:** If prompted, select
+
+The following links contain pre-made requests that can be run immediately. **Note:** If prompted, select
 "Proxy" as the interceptor.
 - https://hopp.sh/r/5powCXjFeOC2
 - https://hopp.sh/r/15LaLewaurpf
