@@ -1,18 +1,18 @@
-from flask import Flask, request
+from flask import Flask, request, render_template
 from cerberus import Validator
 
 from inventory_mongo_client import InventoryMongoClient
 from schemas import item_list_schema, item_deletion_list_schema
 from responses import error_response
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 
 client = InventoryMongoClient()
 
 
 @app.route("/")
 def base():
-    return "Welcome to Inventory Manager"
+    return render_template('welcome.html')
 
 
 @app.route("/inventory/items", methods=["GET"])

@@ -1,8 +1,8 @@
 [tool]
 [tool.poetry]
-authors = ["Your Name <you@example.com>"]
-description = ""
-name = "inventory manager"
+authors = ["John Kattukudiyil <jskattuk@uwaterloo.ca>"]
+description = "Submission for the Fall 2022 Shopify Developer Intern Challenge Question"
+name = "Inventory Manager"
 version = "1.0.0"
 [tool.poetry.dependencies]
 python = "^3.8"

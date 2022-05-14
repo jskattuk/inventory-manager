@@ -26,11 +26,25 @@ Submission for the Fall 2022 Shopify Developer Intern Challenge Question
 to query the database
 
 ## How to Run
+### Run on repl.it
+1. Go to https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission
+2. Click on "Run"
+3. The application is now running, you can make HTTP requests to
+https://shopify-technical-challenge-submission.johnkattukudiyi.repl.co and receive responses in return. This can be done
+using cURL, Postman, etc. See [Application Endpoints](#application-endpoints) for the list of application endpoints. 
+Alternatively, the following links contain pre-made requests that can be run immediately. **Note:** If prompted, select
+"Proxy" as the interceptor.
+- https://hopp.sh/r/5powCXjFeOC2
+- https://hopp.sh/r/15LaLewaurpf
+- https://hopp.sh/r/EeTq59c2QGh0
+- https://hopp.sh/r/aIGIGE7ki3Nm
+- https://hopp.sh/r/3v92oWmpUNQa
+
+### Run locally
 1. Initialize virtual environment with required dependencies (only needed when running the first time):
 `make init`
-2. Activate virtual environment: `source venv/bin/activate`
-3. Run application: `make run`
-4. Send REST requests to `http://localhost:8080` to communicate with application
+2. Run application: `make run`
+3. Send HTTP requests to `http://localhost:8080` to communicate with application
 
 ## Application Endpoints
 
