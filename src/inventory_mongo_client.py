@@ -75,10 +75,8 @@ class InventoryMongoClient:
 
     def delete_items(self, items, recover):
         collection = self.client.inventory.items
-        print(items)
         id_comment_dict = {item["id"]: item["comment"] for item in items}
         item_ids = id_comment_dict.keys()
-        print(item_ids)
         try:
             # does user want to be able to recover deleted items?
             if recover:

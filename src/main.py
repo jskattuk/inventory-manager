@@ -5,14 +5,14 @@ from inventory_mongo_client import InventoryMongoClient
 from schemas import item_list_schema, item_deletion_list_schema
 from responses import error_response
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder="templates")
 
 client = InventoryMongoClient()
 
 
 @app.route("/")
 def base():
-    return render_template('welcome.html')
+    return render_template("welcome.html")
 
 
 @app.route("/inventory/items", methods=["GET"])
@@ -103,4 +103,4 @@ def validate_request_args(args):
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=8080)
+    app.run(host="0.0.0.0", port=8080)
