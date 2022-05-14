@@ -3,6 +3,8 @@ Submission for the Fall 2022 Shopify Developer Intern Challenge Question
 
 - [Features](#features)
 - [How to Run](#how-to-run)
+  * [Run on replit](#run-on-replit)
+  * [Run locally](#run-locally)
 - [Application Endpoints](#application-endpoints)
   * [`GET /inventory/items`](#-get--inventory-items-)
     + [Query Arguments](#query-arguments)
@@ -26,7 +28,7 @@ Submission for the Fall 2022 Shopify Developer Intern Challenge Question
 to query the database
 
 ## How to Run
-### Run on repl.it
+### Run on replit
 1. Go to https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission
 2. Click on "Run"
 3. The application is now running, you can make HTTP requests to
