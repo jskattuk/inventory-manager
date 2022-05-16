@@ -30,7 +30,7 @@ to query the database
 ## How to Run
 ### Run on replit
 1. Go to https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission
-2. Click on "Run". Note that it may take a few seconds for the repl to wake up.
+2. Click on "Run". Note that it may take up to a minute for the repl to wake up.
 3. The application is now running, you can make HTTP requests to
 https://shopify-technical-challenge-submission.johnkattukudiyi.repl.co and receive responses in return. This can be done
 using cURL, Postman, etc. See [Application Endpoints](#application-endpoints) for the list of application endpoints. 
