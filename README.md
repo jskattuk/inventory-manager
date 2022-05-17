@@ -1,4 +1,6 @@
 # Inventory Manager
+[![Run on Repl.it](https://repl.it/badge/github/jskattuk/shopify-technical-challenge-submission)](https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission)
+
 Submission for the Fall 2022 Shopify Developer Intern Challenge Question
 
 - [Features](#features)
