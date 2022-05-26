@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 authors = ["John Kattukudiyil <jskattuk@uwaterloo.ca>"]
-description = "Submission for the Fall 2022 Shopify Developer Intern Challenge Question"
+description = "Application for managing items in an inventory system via HTTP requests, including bulk item creation, deletion, retrieval, updating, and undeletion."
 name = "Inventory Manager"
 version = "1.0.0"
 [tool.poetry.dependencies]
