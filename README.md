@@ -1,5 +1,7 @@
 # Inventory Manager
-[![Run on Repl.it](https://repl.it/badge/github/jskattuk/shopify-technical-challenge-submission)](https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission)
+[![Run on Repl.it](https://repl.it/badge/github/jskattuk/inventory-manager)](https://replit.com/@JohnKattukudiyi/inventory-manager)
+
+Application for managing items in an inventory system via HTTP requests, including bulk item creation, deletion, retrieval, updating, and undeletion.
 
 - [Features](#features)
 - [How to Run](#how-to-run)
@@ -23,25 +25,25 @@
 
 ## Features
 - Ability to create, read, update, delete, and undelete multiple inventory items at once
-- **Selected feature:** Ability to delete items with deletion comments as well as undelete them 
+- Ability to delete items with deletion comments as well as undelete them 
 - Use of LRU caches to store recently used items and deleted items, allowing for quicker item retrieval without needing
 to query the database
 
 ## How to Run
 ### Run on replit
-1. Go to https://replit.com/@JohnKattukudiyi/shopify-technical-challenge-submission
+1. Go to https://replit.com/@JohnKattukudiyi/inventory-manager
 2. Click on "Run". Note that it may take up to a minute for the repl to wake up.
 3. The application is now running, you can make HTTP requests to
-https://shopify-technical-challenge-submission.johnkattukudiyi.repl.co and receive responses in return. This can be done
+https://inventory-manager.johnkattukudiyi.repl.co and receive responses in return. This can be done
 using cURL, Postman, etc. See [Application Endpoints](#application-endpoints) for the list of application endpoints. 
 
 The following links contain pre-made requests that can be run immediately. **Note:** If prompted, select
 "Proxy" as the interceptor.
-- https://hopp.sh/r/5powCXjFeOC2
-- https://hopp.sh/r/15LaLewaurpf
-- https://hopp.sh/r/EeTq59c2QGh0
-- https://hopp.sh/r/aIGIGE7ki3Nm
-- https://hopp.sh/r/3v92oWmpUNQa
+- https://hopp.sh/r/NukAhEt2wzdX
+- https://hopp.sh/r/opp7FvBsT5Z2
+- https://hopp.sh/r/wYDQfjG6OBd3
+- https://hopp.sh/r/2ljR3uM6Pjax
+- https://hopp.sh/r/pPdv15Sjgjy2
 
 ### Run locally
 1. Initialize virtual environment with required dependencies (only needed when running the first time):
